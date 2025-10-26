@@ -1,0 +1,41 @@
+{
+  "name": "poc",
+  "version": "1.0.0",
+  "description": "A lightweight smart contract system where contributors submit work (GitHub commits, IPFS links, or even AI model checkpoints), and sponsors can fund a reward pool. Rewards are distributed via commit hashes and simple verifications (maybe even just signed attestations).",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meharab/Proof-of-Contribution.git"
+  },
+  "keywords": [
+    "poc"
+  ],
+  "author": "Meharab Latif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meharab/Proof-of-Contribution/issues"
+  },
+  "homepage": "https://github.com/Meharab/Proof-of-Contribution#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.0.3",
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^3.0.0",
+    "@types/chai": "^4.3.20",
+    "@types/chai-as-promised": "^8.0.2",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.18.12",
+    "chai": "^5.3.3",
+    "ethers": "^6.15.0",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "hardhat": "^3.0.9",
+    "mocha": "^11.7.4",
+    "typescript": "~5.8.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^17.2.3"
+  }
+}
