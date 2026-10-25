@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Meharab/Proof-of-Contribution#readme",
   "devDependencies": {
     "@nomicfoundation/hardhat-ignition": "^3.0.3",
-    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^4.0.0",
     "@types/chai": "^4.3.20",
     "@types/chai-as-promised": "^8.0.2",
     "@types/mocha": "^10.0.10",
@@ -30,7 +30,7 @@
     "ethers": "^6.17.0",
     "forge-std": "github:foundry-rs/forge-std#v1.9.4",
     "hardhat": "^3.17.0",
-    "mocha": "^11.7.4",
+    "mocha": "^12.0.3",
     "typescript": "~5.8.0"
   },
   "type": "module",
